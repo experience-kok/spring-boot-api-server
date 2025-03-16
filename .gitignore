@@ -1,0 +1,52 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Java 관련
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+
+# 환경 변수 (DB 연결 정보 등)
+application.properties
+application.yml
+.env
+
+# .gitignore 파일 생성
+touch .gitignore
+
+# VSCode나 IntelliJ에서 .gitignore 파일 편집
+nano .gitignore  # nano 에디터 사용
